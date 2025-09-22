@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$USER=$(id -u)
+USER=$(id -u)
 
 if [ $USER -ne 0 ]; then
     echo "Error :: Please run with root access"
