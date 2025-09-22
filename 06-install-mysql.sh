@@ -2,7 +2,7 @@
 
 $USER=$(id -u)
 
-if [ $USER -ne 0 ] then
+if [ $USER -ne 0 ]; then
     echo "Error :: Please run with root access"
 fi
 
@@ -10,7 +10,7 @@ fi
 dnf install mysql -y
 
 
-if [ $? -ne 0 ] then
+if [ $? -ne 0 ]; then
     echo "Error installing mysql"
 else
     echo "Installed success"
