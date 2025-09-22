@@ -23,3 +23,7 @@ VALIDATE() {
 
 VALIDATE $USER "mysql"
 
+VALIDATE $USER "python3"
+
+VALIDATE $USER "nginx"
+
