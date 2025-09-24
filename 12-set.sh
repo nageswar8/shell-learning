@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e 
+set -euo pipefail
 echo "Hello"
 echo "World"
 
